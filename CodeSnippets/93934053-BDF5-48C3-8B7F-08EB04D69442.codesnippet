@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tq_init</string>
+	<string>lws_init</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>    self = [super init];
@@ -20,7 +20,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>tq init code</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>tq init code</string>
+	<string>lws init code</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

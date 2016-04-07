@@ -3,19 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>www</string>
+	<string>lws_add_btn</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy)   &lt;#type#&gt; *&lt;#name#&gt;;</string>
+	<string>UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.backgroundColor = [UIColor lightGrayColor];
+    [btn setTitle:&lt;#(nullable NSString *)#&gt; forState:UIControlStateNormal];
+    [btn sizeToFit];
+    btn.center = CGPointMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;);
+    [btn addTarget:self action:&lt;#(nonnull SEL)#&gt; forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E10BEAE2-7433-4892-9314-95759F276395</string>
+	<string>159D2BEB-5B5C-480E-B3D0-45048D72640B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property declaration - weak</string>
+	<string>lws_add_btn</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
